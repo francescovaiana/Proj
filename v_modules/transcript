@@ -1,0 +1,511 @@
+# //  Questa Sim-64
+# //  Version 10.6 linux_x86_64 Dec 13 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project ones_counter
+# reading /space/tools/mentor/questasim-10.6/questasim/linux_x86_64/../modelsim.ini
+# Loading project custom_rom
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.tb_rom -novopt
+# vsim work.tb_rom -novopt 
+# Start time: 17:26:45 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# ** Error: (vsim-3033) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): Instantiation of 'rca' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Region: /tb_rom/O_C/genblk2[0]/genblk1[0] File: /home/vaiana/v_modules/src/ones_counter/ones_counter.v
+#         Searched libraries:
+#             /home/vaiana/v_modules/src/dispatcher/work
+# ** Error: (vsim-3033) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): Instantiation of 'rca' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Region: /tb_rom/O_C/genblk2[0]/genblk1[1] File: /home/vaiana/v_modules/src/ones_counter/ones_counter.v
+#         Searched libraries:
+#             /home/vaiana/v_modules/src/dispatcher/work
+# ** Error: (vsim-3033) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): Instantiation of 'rca' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Region: /tb_rom/O_C/genblk2[1]/genblk1[0] File: /home/vaiana/v_modules/src/ones_counter/ones_counter.v
+#         Searched libraries:
+#             /home/vaiana/v_modules/src/dispatcher/work
+# Error loading design
+# End time: 17:26:46 on Jul 14,2018, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 1
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 17:27:15 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(15): [PCDPC] - Port size (2) does not match connection size (3) for port 'n_v_out'. The port definition is at: /home/vaiana/v_modules/src/dispatcher/custom_rom.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/DUT File: /home/vaiana/v_modules/src/dispatcher/custom_rom.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(15): [PCDPC] - Port size (256) does not match connection size (8) for port 'addr'. The port definition is at: /home/vaiana/v_modules/src/dispatcher/custom_rom.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/DUT File: /home/vaiana/v_modules/src/dispatcher/custom_rom.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(15): [PCDPC] - Port size (1024) does not match connection size (32) for port 'data_out'. The port definition is at: /home/vaiana/v_modules/src/dispatcher/custom_rom.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/DUT File: /home/vaiana/v_modules/src/dispatcher/custom_rom.v
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+quit -sim
+# End time: 17:33:08 on Jul 14,2018, Elapsed time: 0:05:53
+# Errors: 0, Warnings: 10
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 17:33:16 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(76)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 76
+add wave -position end sim:/tb_rom/DUT/*
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(76)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 76
+quit -sim
+# End time: 17:35:38 on Jul 14,2018, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 17:35:42 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_rom/DUT/*
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(76)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 76
+quit -sim
+# End time: 18:02:29 on Jul 14,2018, Elapsed time: 0:26:47
+# Errors: 0, Warnings: 0
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 18:02:36 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(16): [PCDPC] - Port size (64) does not match connection size (36) for port 'data_out'. The port definition is at: /home/vaiana/v_modules/src/dispatcher/custom_rom.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/DUT File: /home/vaiana/v_modules/src/dispatcher/custom_rom.v
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+quit -sim
+# End time: 18:06:40 on Jul 14,2018, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 8
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 18:06:45 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_rom/DUT/*
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(77)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 77
+restart -f
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(77)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 77
+quit -sim
+# End time: 18:17:31 on Jul 14,2018, Elapsed time: 0:10:46
+# Errors: 0, Warnings: 0
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 18:17:39 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_rom/DUT/*
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(77)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 77
+quit -sim
+# End time: 18:20:21 on Jul 14,2018, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 7
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 18:20:24 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_rom
+# Loading work.custom_rom
+# Loading work.ones_counter
+# Loading work.rca
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_rom/DUT/*
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(77)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 77
+quit -sim
+# End time: 18:21:11 on Jul 14,2018, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 7
+# Compile of custom_rom.v was successful.
+# Compile of tb_custom_rom.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.tb_rom -t ns
+# vsim -novopt work.tb_rom -t ns 
+# Start time: 18:21:17 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.tb_rom
+# Loading work.tb_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/dispatcher/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[0]/genblk1[1]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rom/O_C/genblk2[1]/genblk1[0]/first_adder File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(21): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_rom/DUT/*
+run 5 us
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v(77)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rom
+# 1
+# Break in Module tb_rom at /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v line 77
+quit -sim
+# End time: 19:09:36 on Jul 14,2018, Elapsed time: 0:48:19
+# Errors: 0, Warnings: 7
+# reading /space/tools/mentor/questasim-10.6/questasim/linux_x86_64/../modelsim.ini
+# Loading project sub
+# Compile of full_adder.v was successful.
+# Compile of sub.v was successful.
+# Compile of tb_sub.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+vsim -novopt -t ns work.tb_rca
+# vsim -novopt -t ns work.tb_rca 
+# Start time: 19:10:29 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_rca
+# Loading work.tb_rca
+# Refreshing /home/vaiana/v_modules/src/work.subtractor
+# Loading work.subtractor
+# ** Error: (vsim-3033) /home/vaiana/v_modules/src/rca/sub.v(13): Instantiation of 'rca' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rca/DUT File: /home/vaiana/v_modules/src/rca/sub.v
+#         Searched libraries:
+#             /home/vaiana/v_modules/src/work
+# Error loading design
+# End time: 19:10:30 on Jul 14,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of full_adder.v was successful.
+# Compile of sub.v was successful.
+# Compile of tb_sub.v was successful.
+# Compile of rca.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -novopt -t ns work.tb_rca
+# vsim -novopt -t ns work.tb_rca 
+# Start time: 19:10:55 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_rca
+# Loading work.tb_rca
+# Refreshing /home/vaiana/v_modules/src/work.subtractor
+# Loading work.subtractor
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/rca/sub.v(13): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rca/DUT/sum File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/rca/sub.v(13): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_rca/DUT/*
+run 5 us
+# ** Note: $finish    : /home/vaiana/v_modules/src/rca/tb_sub.v(44)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rca
+# 1
+# Break in Module tb_rca at /home/vaiana/v_modules/src/rca/tb_sub.v line 44
+quit -sim
+# End time: 19:11:40 on Jul 14,2018, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 3
+# Compile of full_adder.v was successful.
+# Compile of sub.v was successful.
+# Compile of tb_sub.v was successful.
+# Compile of rca.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -novopt -t ns work.tb_rca
+# vsim -novopt -t ns work.tb_rca 
+# Start time: 19:11:43 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_rca
+# Loading work.tb_rca
+# Refreshing /home/vaiana/v_modules/src/work.subtractor
+# Loading work.subtractor
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/rca/sub.v(14): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rca/DUT/sum File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/rca/sub.v(14): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_rca/DUT/*
+run 5 us
+# ** Note: $finish    : /home/vaiana/v_modules/src/rca/tb_sub.v(44)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rca
+# 1
+# Break in Module tb_rca at /home/vaiana/v_modules/src/rca/tb_sub.v line 44
+add wave -position end sim:/tb_rca/DUT/sum/*
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/rca/sub.v(14): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_rca/DUT/sum File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/rca/sub.v(14): [TFMPC] - Missing connection for port 'carry_out'.
+run 5 us
+# ** Note: $finish    : /home/vaiana/v_modules/src/rca/tb_sub.v(44)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rca
+# 1
+# Break in Module tb_rca at /home/vaiana/v_modules/src/rca/tb_sub.v line 44
+add wave -position end sim:/tb_rca/DUT/#ASSIGN#9/*
+add wave -position end {sim:/tb_rca/DUT/sum/genblk1[1]/*}
+# (vish-4014) No objects found matching '/tb_rca/DUT/sum/genblk1[1]/*'.
+add wave -position end {sim:/tb_rca/DUT/sum/genblk1[1]/fa/*}
+quit -sim
+# End time: 19:17:48 on Jul 14,2018, Elapsed time: 0:06:05
+# Errors: 1, Warnings: 0
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of tb_rca.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -novopt -t ns work.tb_rca
+# vsim -novopt -t ns work.tb_rca 
+# Start time: 19:18:20 on Jul 14,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_rca
+# Loading work.tb_rca
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+add wave -position end sim:/tb_rca/DUT/*
+run 5 us
+# ** Note: $finish    : /home/vaiana/v_modules/src/rca/tb_rca.v(54)
+#    Time: 210 ns  Iteration: 1  Instance: /tb_rca
+# 1
+# Break in Module tb_rca at /home/vaiana/v_modules/src/rca/tb_rca.v line 54
+quit -sim
+# End time: 14:46:48 on Jul 16,2018, Elapsed time: 43:28:28
+# Errors: 0, Warnings: 1
+# reading /space/tools/mentor/questasim-10.6/questasim/linux_x86_64/../modelsim.ini
+# Loading project dispatcher

@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : area
+Design : ones_counter_shgen
+Version: L-2016.03-SP5-2
+Date   : Thu Jul 12 13:14:15 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    CORE65LPSVT (File: /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db)
+
+Number of ports:                           40
+Number of nets:                           255
+Number of cells:                          221
+Number of combinational cells:            178
+Number of sequential cells:                43
+Number of macros/black boxes:               0
+Number of buf/inv:                          9
+Number of references:                      30
+
+Combinational area:                617.759985
+Buf/Inv area:                       14.559999
+Noncombinational area:             340.600007
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   958.359992
+Total area:                 undefined
+1
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Error: Could not read the following target libraries:
+your_library.db 
+ (UIO-3)
+ 
+****************************************
+Report : area
+Design : ones_counter_shgen
+Version: L-2016.03-SP5-2
+Date   : Thu Jul 12 13:20:51 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    gtech (File: /space/tools/synopsys/syn-L-2016.03-SP5-2/libraries/syn/gtech.db)
+
+Number of ports:                           40
+Number of nets:                           577
+Number of cells:                          507
+Number of combinational cells:            462
+Number of sequential cells:                45
+Number of macros/black boxes:               0
+Number of buf/inv:                          6
+Number of references:                       8
+
+Combinational area:                  0.000000
+Buf/Inv area:                        0.000000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                     0.000000
+Total area:                 undefined
+
+Information: This design contains unmapped logic. (RPT-7)
+1

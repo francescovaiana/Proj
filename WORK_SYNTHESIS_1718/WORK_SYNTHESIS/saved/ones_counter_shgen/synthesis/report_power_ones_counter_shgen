@@ -1,0 +1,107 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ones_counter_shgen
+Version: L-2016.03-SP5-2
+Date   : Thu Jul 12 13:14:15 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE65LPSVT (File: /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db)
+
+
+Operating Conditions: nom_1.20V_25C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ones_counter_shgen     area_12Kto18K     CORE65LPSVT
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1mW
+
+
+  Cell Internal Power  = 106.3314 uW   (79%)
+  Net Switching Power  =  28.9098 uW   (21%)
+                         ---------
+Total Dynamic Power    = 135.2412 uW  (100%)
+
+Cell Leakage Power     =  61.3755 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       9.0553e-02        5.1625e-03        2.4287e-05        9.5739e-02  (  70.76%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.5779e-02        2.3747e-02        3.7088e-05        3.9563e-02  (  29.24%)
+--------------------------------------------------------------------------------------------------
+Total              0.1063 mW     2.8910e-02 mW     6.1375e-05 mW         0.1353 mW
+1
+Warning: Main library 'gtech' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ones_counter_shgen
+Version: L-2016.03-SP5-2
+Date   : Thu Jul 12 13:20:51 2018
+****************************************
+
+
+Library(s) Used:
+
+    gtech (File: /space/tools/synopsys/syn-L-2016.03-SP5-2/libraries/syn/gtech.db)
+
+
+Operating Conditions: nom_pvt   Library: gtech
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 5    
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 0.100000ff
+    Time Units = 1ns
+    Dynamic Power Units = 100nW    (derived from V,C,T units)
+    Leakage Power Units = Unitless
+
+
+  Cell Internal Power  =   0.0000 nW    (0%)
+  Net Switching Power  =  11.5688 nW  (100%)
+                         ---------
+Total Dynamic Power    =  11.5688 nW  (100%)
+
+Cell Leakage Power     =   0.0000 
+
+Error: Either dynamic power or leakage power, in the library, is unitless. Unable to display complete power group summary. (PWR-799)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000               NA   (     N/A)
+memory             0.0000            0.0000            0.0000               NA   (     N/A)
+black_box          0.0000            0.0000            0.0000               NA   (     N/A)
+clock_network      0.0000            0.0000            0.0000               NA   (     N/A)
+register           0.0000           11.5688            0.0000               NA   (     N/A)
+sequential         0.0000            0.0000            0.0000               NA   (     N/A)
+combinational      0.0000            0.0000            0.0000               NA   (     N/A)
+--------------------------------------------------------------------------------------------------
+Total              0.0000 nW        11.5688 nW         0.0000               NA        
+1

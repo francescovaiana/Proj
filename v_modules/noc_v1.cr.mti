@@ -1,0 +1,43 @@
+/home/vaiana/v_modules/src/noc_tree_v1.0/rotate_reg.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/noc_tree_v1.0/rotate_reg.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module rotate_reg
+
+Top level modules:
+	rotate_reg
+
+} {} {}} /home/vaiana/v_modules/src/noc_tree_v1.0/my_noc.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/noc_tree_v1.0/my_noc.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module my_noc
+
+Top level modules:
+	my_noc
+
+} {} {}} /home/vaiana/v_modules/src/noc_tree_v1.0/enh_demux.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/noc_tree_v1.0/enh_demux.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module enh_demux
+
+Top level modules:
+	enh_demux
+
+} {} {}} /home/vaiana/v_modules/src/noc_tree_v1.0/new_2enh_mux.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/noc_tree_v1.0/new_2enh_mux.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module enh_mux
+
+Top level modules:
+	enh_mux
+
+} {} {}} /home/vaiana/v_modules/src/noc_tree_v1.0/demux.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/noc_tree_v1.0/demux.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module demux
+
+Top level modules:
+	demux
+
+} {} {}} /home/vaiana/v_modules/src/noc_tree_v1.0/2r1w_fifo.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/noc_tree_v1.0/2r1w_fifo.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}}

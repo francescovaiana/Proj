@@ -1,0 +1,441 @@
+Running PRESTO HDLC
+Compiling source file ./rtl/ones_counter/verilog/full_adder.v
+Presto compilation completed successfully.
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_bc_1.30V_m40C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_wc_1.10V_125C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPLVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPHVT_nom_1.20V_25C.db'
+Running PRESTO HDLC
+Compiling source file ./rtl/ones_counter/verilog/ones_counter.v
+Warning:  ./rtl/ones_counter/verilog/ones_counter.v:32: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  ./rtl/ones_counter/verilog/ones_counter.v:38: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Warning:  ./rtl/ones_counter/verilog/ones_counter.v:37: A unnamed generate block with an LRM-defined name 'genblk2' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ./rtl/ones_counter/verilog/reg.v
+Presto compilation completed successfully.
+Running PRESTO HDLC
+Compiling source file ./rtl/ones_counter/verilog/rca.v
+Warning:  ./rtl/ones_counter/verilog/rca.v:16: A unnamed generate block with an LRM-defined name 'genblk1' is detected, which is incompatible with Verilog standard 2001 or 1995. (VER-944)
+Presto compilation completed successfully.
+Loading db file '/space/tools/synopsys/syn-L-2016.03-SP5-2/libraries/syn/gtech.db'
+Loading db file '/space/tools/synopsys/syn-L-2016.03-SP5-2/libraries/syn/standard.sldb'
+  Loading link library 'CORE65LPSVT'
+  Loading link library 'CORE65LPSVT'
+  Loading link library 'CORE65LPSVT'
+  Loading link library 'CORE65LPLVT'
+  Loading link library 'CORE65LPHVT'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'ones_counter'.
+Information: Building the design 'reg_gen' instantiated from design 'ones_counter' with
+	the parameters "bit_width=32". (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_gen_bit_width32 line 9 in file
+		'./rtl/ones_counter/verilog/reg.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |  32   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reg_gen' instantiated from design 'ones_counter' with
+	the parameters "bit_width=6". (HDL-193)
+
+Inferred memory devices in process
+	in routine reg_gen_bit_width6 line 9 in file
+		'./rtl/ones_counter/verilog/reg.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'rca' instantiated from design 'ones_counter' with
+	the parameters "bit_width=32". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'full_adder'. (HDL-193)
+Presto compilation completed successfully.
+Using operating conditions 'nom_1.20V_25C' found in library 'CORE65LPSVT'.
+Information: Setting sdc_version outside of an SDC file has no effect (SDC-1)
+
+  Linking design 'ones_counter'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  CORE65LPSVT (library)       /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_bc_1.30V_m40C.db
+  CORE65LPSVT (library)       /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_wc_1.10V_125C.db
+  CORE65LPSVT (library)       /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db
+  CORE65LPLVT (library)       /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPLVT_nom_1.20V_25C.db
+  CORE65LPHVT (library)       /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPHVT_nom_1.20V_25C.db
+
+Information: Updating graph... (UID-83)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.5.1 |   *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 57 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'ones_counter'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:04    1592.8      0.00       0.0       1.3                          
+    0:00:04    1592.8      0.00       0.0       1.3                          
+    0:00:04    1592.8      0.00       0.0       1.3                          
+    0:00:05    1592.8      0.00       0.0       1.3                          
+    0:00:05    1592.8      0.00       0.0       1.3                          
+    0:00:05     907.4      0.00       0.0       1.3                          
+    0:00:05     907.4      0.00       0.0       1.3                          
+    0:00:05     907.4      0.00       0.0       1.3                          
+    0:00:05     907.4      0.00       0.0       1.3                          
+    0:00:05     907.4      0.00       0.0       1.3                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (max_area 0)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+    0:00:05     923.0      0.00       0.0       0.0                          
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_bc_1.30V_m40C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_wc_1.10V_125C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPLVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPHVT_nom_1.20V_25C.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+  Loading design 'ones_counter'
+
+  Beginning retiming
+  ------------------
+Information: Updating design information... (UID-85)
+  Retiming ones_counter (top)
+FROM: pin: clk/**outside**, pin: rst/**outside**, pin: word_in[31]/**outside**, pin: word_in[30]/**outside**, pin: word_in[29]/**outside**, pin: word_in[28]/**outside**, pin: word_in[27]/**outside**, pin: word_in[26]/**outside**, pin: word_in[25]/**outside**, pin: word_in[24]/**outside**, pin: word_in[23]/**outside**, pin: word_in[22]/**outside**, pin: word_in[21]/**outside**, pin: word_in[20]/**outside**, pin: word_in[19]/**outside**, pin: word_in[18]/**outside**, pin: word_in[17]/**outside**, pin: word_in[16]/**outside**, pin: word_in[15]/**outside**, pin: word_in[14]/**outside**, pin: word_in[13]/**outside**, pin: word_in[12]/**outside**, pin: word_in[11]/**outside**, pin: word_in[10]/**outside**, pin: word_in[9]/**outside**, pin: word_in[8]/**outside**, pin: word_in[7]/**outside**, pin: word_in[6]/**outside**, pin: word_in[5]/**outside**, pin: word_in[4]/**outside**, pin: word_in[3]/**outside**, pin: word_in[2]/**outside**, pin: word_in[1]/**outside**, pin: word_in[0]/**outside**, 
+TO: pin: count_out[5]/**outside**, pin: count_out[4]/**outside**, pin: count_out[3]/**outside**, pin: count_out[2]/**outside**, pin: count_out[1]/**outside**, pin: count_out[0]/**outside**, 
+  Preferred flip-flop is HS65_LSS_DFPQNX35 with setup = 0.06
+
+
+  Retiming base-clock clk, rising edge.
+  Beginning minimum period retiming ...
+  ... minimum period retiming done.
+  Beginning final register move ...
+  ... final register move done.
+  Lower bound estimate = 0.62
+  Critical path length = 0.62
+  Clock correction = 0.26 (clock-to-Q delay = 0.15, setup = 0.06, uncertainty = 0.05)
+
+  Retiming complete
+  -----------------
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Loading db file '/space/tools/synopsys/syn-L-2016.03-SP5-2/libraries/syn/dw_foundation.sldb'
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | L-2016.03-DWBB_201603.5.1 |   *     |
+| Licensed DW Building Blocks        | L-2016.03-DWBB_201603.5.1 |   *     |
+============================================================================
+
+
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_bc_1.30V_m40C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_wc_1.10V_125C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPLVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPHVT_nom_1.20V_25C.db'
+Loaded alib file './alib-52/CORE65LPSVT_nom_1.20V_25C.db.alib'
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+
+  Beginning Mapping Optimizations  (Ultra High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+    0:00:12     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+
+
+  Beginning Design Rule Fixing  (max_transition)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:13     946.4      0.00       0.0       1.1                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:13     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+    0:00:14     958.4      0.00       0.0       0.0                              0.0001
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_bc_1.30V_m40C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_wc_1.10V_125C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPLVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPHVT_nom_1.20V_25C.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping  (Incremental)
+  ------------------------
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+
+  Beginning Mapping Optimizations  (Ultra High effort)  (Incremental)
+  -------------------------------
+
+  Beginning Incremental Implementation Selection
+  ----------------------------------------------
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:03     958.4      0.00       0.0       0.0                              0.0001      0.00  
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:04     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:05     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:05     958.4      0.00       0.0       0.0                              0.0001      0.00  
+    0:00:05     958.4      0.00       0.0       0.0                              0.0001      0.00  
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_bc_1.30V_m40C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_wc_1.10V_125C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPLVT_nom_1.20V_25C.db'
+Loading db file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPHVT_nom_1.20V_25C.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Writing verilog file '/home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/saved/ones_counter/synthesis/ones_counter_postsyn.v'.
+Warning: Changed wire name count_out[5] to count_out_5 in module ones_counter.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)
+Warning: Changed wire name count_out[0] to count_out_0 in module ones_counter.  Please use the change_names command to make the correct changes before invoking the verilog writer. (VO-2)

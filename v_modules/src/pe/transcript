@@ -1,0 +1,2307 @@
+# //  Questa Sim-64
+# //  Version 10.6 linux_x86_64 Dec 13 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project pe
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 17:39:33 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# ** Fatal: (vsim-3822) /home/vaiana/v_modules/src/ones_counter/ones_counter.v(19) Evaluation of a generate loop has exceeded the iteration limit of 100000.
+#    Time: 0 ns  Iteration: 0  Region: /tb_pe/DUT/my_dispatcher/stall_counter/genblk2[1]/genblk1[100000] File: /home/vaiana/v_modules/src/ones_counter/ones_counter.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:39:35 on Jul 19,2018, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# No Design Loaded!
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 17:46:32 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[0]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[0]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[1]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[1]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[2]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[2]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[3]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[3]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[4]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[4]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[5]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[5]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[6]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[6]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[7]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[7]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[8]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[8]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[9]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[9]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[10]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[10]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[11]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[11]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[12]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[12]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[13]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[13]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[14]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[14]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[15]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[15]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[16]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[16]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[17]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[17]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[18]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[18]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[19]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[19]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[20]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[20]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[21]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[21]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[22]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[22]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[23]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[23]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[24]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[24]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[25]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[25]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[26]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[26]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[27]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[27]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[28]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[28]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[29]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[29]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[30]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[30]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[31]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[31]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# Loading rom.
+# Loading rom.
+run 10 us
+add wave -position 57 {sim:/tb_pe/DUT/genblk3[31]/accumulator_n/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[0]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[0]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[1]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[1]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[2]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[2]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[3]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[3]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[4]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[4]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[5]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[5]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[6]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[6]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[7]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[7]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[8]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[8]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[9]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[9]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[10]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[10]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[11]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[11]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[12]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[12]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[13]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[13]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[14]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[14]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[15]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[15]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[16]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[16]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[17]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[17]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[18]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[18]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[19]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[19]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[20]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[20]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[21]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[21]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[22]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[22]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[23]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[23]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[24]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[24]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[25]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[25]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[26]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[26]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[27]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[27]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[28]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[28]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[29]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[29]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[30]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[30]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[31]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[31]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+run 5 us
+# Loading rom.
+# Loading rom.
+# Causality operation skipped due to absence of debug database file
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run 5 us
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run 20 ns
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run 20 us
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[0]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[0]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[1]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[1]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[2]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[2]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[3]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[3]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[4]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[4]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[5]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[5]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[6]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[6]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[7]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[7]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[8]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[8]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[9]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[9]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[10]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[10]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[11]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[11]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[12]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[12]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[13]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[13]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[14]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[14]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[15]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[15]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[16]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[16]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[17]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[17]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[18]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[18]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[19]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[19]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[20]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[20]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[21]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[21]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[22]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[22]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[23]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[23]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[24]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[24]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[25]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[25]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[26]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[26]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[27]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[27]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[28]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[28]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[29]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[29]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[30]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[30]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'in'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[31]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/processing_element.v(99): [PCDPC] - Port size (17) does not match connection size (16) for port 'out'. The port definition is at: /home/vaiana/v_modules/src/accumulator/accumulator.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_pe/DUT/genblk3[31]/accumulator_n File: /home/vaiana/v_modules/src/accumulator/accumulator.v
+run 11 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 17:58:19 on Jul 19,2018, Elapsed time: 0:11:47
+# Errors: 39, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 17:59:24 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 18:27:22 on Jul 19,2018, Elapsed time: 0:27:58
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 18:27:31 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# (vish-4014) No objects found matching '/tb_pe/DUT/genblk3[31]/accumulator_n/clk'.
+add wave -position end {sim:/tb_pe/DUT/genblk3[7]/accumulator_n/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 18:44:28 on Jul 19,2018, Elapsed time: 0:16:57
+# Errors: 1, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 18:50:32 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# (vish-4014) No objects found matching '/tb_pe/DUT/genblk3[31]/accumulator_n/clk'.
+run 5 us
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/genblk3[7]/accumulator_n/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+
+run 5 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sin
+# unknown switch: -sin
+quit -sim
+# End time: 18:52:44 on Jul 19,2018, Elapsed time: 0:02:12
+# Errors: 2, Warnings: 0
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 18:52:46 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_pe
+# Loading work.processing_element
+# Loading work.dispatcher
+# Loading work.accumulator
+# Loading work.rca
+# Loading work.mux21_generic
+# Loading work.reg_gen
+# Loading work.custom_rom
+# Loading work.ones_counter
+# Loading work.my_noc
+# Loading work.full_adder
+# Loading work.enh_mux
+# Loading work.buffer
+# Loading work.demux
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 18:53:04 on Jul 19,2018, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 18:53:10 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 19:16:19 on Jul 19,2018, Elapsed time: 0:23:09
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:16:24 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 19:22:47 on Jul 19,2018, Elapsed time: 0:06:23
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v failed with 2 errors.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 1 failed with 2 errors.
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:23:36 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/genblk2[0]/multiplier_v/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 19:44:33 on Jul 19,2018, Elapsed time: 0:20:57
+# Errors: 0, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:44:39 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 19:45:41 on Jul 19,2018, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:45:48 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 19:47:00 on Jul 19,2018, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:47:08 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+run 10 us
+quit -sim
+# End time: 19:51:04 on Jul 19,2018, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:51:09 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 19:56:06 on Jul 19,2018, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:56:15 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# ** Note: $finish    : /home/vaiana/v_modules/src/pe/tb_pe.v(132)
+#    Time: 1120 ns  Iteration: 3  Instance: /tb_pe
+# 1
+# Break in Module tb_pe at /home/vaiana/v_modules/src/pe/tb_pe.v line 132
+quit -sim
+# End time: 19:57:48 on Jul 19,2018, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 19:57:53 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 20:19:32 on Jul 19,2018, Elapsed time: 0:21:39
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 20:19:39 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+run 5 us
+run 5 us
+quit -sim
+# End time: 20:21:36 on Jul 19,2018, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 20:21:42 on Jul 19,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 11:20:15 on Jul 20,2018, Elapsed time: 14:58:33
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+vsim -t ns -novopt work.tb_pe
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 11:20:40 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+add wave -position end sim:/tb_pe/DUT/*
+run 11 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 11:39:47 on Jul 20,2018, Elapsed time: 0:19:07
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 11:40:08 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/genblk4[7]/*}
+# (vish-4014) No objects found matching '/tb_pe/DUT/genblk4[7]/*'.
+add wave -position end {sim:/tb_pe/DUT/genblk4[7]/accumulator_n/*}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+add wave -position end sim:/tb_pe/DUT/link_network/*
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 12:19:31 on Jul 20,2018, Elapsed time: 0:39:23
+# Errors: 1, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.BCKP was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 12:20:08 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 12:22:08 on Jul 20,2018, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 12:22:33 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo1/*}
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+add wave tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff
+# invalid command name "2"
+add wave DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff
+# invalid command name "2"
+add wave /DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff
+# invalid command name "2"
+add wave tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff
+# invalid command name "2"
+add wave tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff/
+# invalid command name "2"
+add wave /tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff/
+# invalid command name "2"
+add wave ./tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff/
+# invalid command name "2"
+add wave ./tb_pe/DUT/link_network/genblk3\[2\]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff/
+# invalid command name "0"
+add wave ./tb_pe/DUT/link_network/genblk3\[2\]/genblk1\[0\]/genblk1/dist_arbiter/fifo2/buff/
+# (vish-4014) No objects found matching './tb_pe/DUT/link_network/genblk3[2]/genblk1[0]/genblk1/dist_arbiter/fifo2/buff/'.
+add wave ./tb_pe/DUT/link_network/genblk3\[2\]/genblk1\[0\]/genblk1/dist_arbiter/fifo2/buff
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 13:40:03 on Jul 20,2018, Elapsed time: 1:17:30
+# Errors: 9, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 13:40:08 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+# Break key hit
+quit -sim
+# End time: 14:17:25 on Jul 20,2018, Elapsed time: 0:37:17
+# Errors: 34, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:17:30 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 1200 ns.
+quit -sim
+# End time: 14:20:32 on Jul 20,2018, Elapsed time: 0:03:02
+# Errors: 1, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:20:37 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 16:31:41 on Jul 20,2018, Elapsed time: 2:11:04
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:31:44 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 1200 ns.
+quit -sim
+# End time: 16:36:25 on Jul 20,2018, Elapsed time: 0:04:41
+# Errors: 1, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:36:36 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 16:39:18 on Jul 20,2018, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:39:28 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave -position 87 {sim:/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/*}
+# (vish-4014) No objects found matching '/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/*'.
+add wave -position 86 {sim:/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 16:50:03 on Jul 20,2018, Elapsed time: 0:10:35
+# Errors: 1, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:50:07 on Jul 20,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# (vish-4014) No objects found matching '/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/curr_out_reg'.
+quit -sim
+# End time: 16:50:45 on Jul 20,2018, Elapsed time: 0:00:38
+# Errors: 1, Warnings: 1
+source sim.tcl

@@ -1,0 +1,106 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ones_counter
+Version: L-2016.03-SP5-2
+Date   : Thu Jul 12 12:59:20 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE65LPSVT (File: /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db)
+
+
+Operating Conditions: nom_1.20V_25C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ones_counter           area_12Kto18K     CORE65LPSVT
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1mW
+
+
+  Cell Internal Power  = 106.3157 uW   (79%)
+  Net Switching Power  =  28.9158 uW   (21%)
+                         ---------
+Total Dynamic Power    = 135.2314 uW  (100%)
+
+Cell Leakage Power     =  61.3782 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       9.0523e-02        5.1612e-03        2.4286e-05        9.5709e-02  (  70.74%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.5793e-02        2.3755e-02        3.7093e-05        3.9584e-02  (  29.26%)
+--------------------------------------------------------------------------------------------------
+Total              0.1063 mW     2.8916e-02 mW     6.1378e-05 mW         0.1353 mW
+1
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : ones_counter
+Version: L-2016.03-SP5-2
+Date   : Thu Jul 12 13:07:06 2018
+****************************************
+
+
+Library(s) Used:
+
+    CORE65LPSVT (File: /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db)
+
+
+Operating Conditions: nom_1.20V_25C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+ones_counter           area_12Kto18K     CORE65LPSVT
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1mW
+
+
+  Cell Internal Power  = 106.3157 uW   (79%)
+  Net Switching Power  =  28.9158 uW   (21%)
+                         ---------
+Total Dynamic Power    = 135.2314 uW  (100%)
+
+Cell Leakage Power     =  61.3782 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       9.0523e-02        5.1612e-03        2.4286e-05        9.5709e-02  (  70.74%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.5793e-02        2.3755e-02        3.7093e-05        3.9584e-02  (  29.26%)
+--------------------------------------------------------------------------------------------------
+Total              0.1063 mW     2.8916e-02 mW     6.1378e-05 mW         0.1353 mW
+1

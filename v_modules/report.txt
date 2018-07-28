@@ -1,0 +1,17 @@
+
+Power Report Interval
+670
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /tb_seq_detect/DUT/clk     67      0          330          340            0
+                  /tb_seq_detect/DUT/rst      1      0           40          630            0
+                   /tb_seq_detect/DUT/oe      2      0          580           90            0
+                   /tb_seq_detect/DUT/in      7      0          430          240            0
+                /tb_seq_detect/DUT/cs[1]      8      0          320          340           10
+                /tb_seq_detect/DUT/cs[0]     14      0          320          340           10
+                /tb_seq_detect/DUT/ns[1]      8      0          320          350            0
+                /tb_seq_detect/DUT/ns[0]     14      1          310          360            0
+       /tb_seq_detect/DUT/ungated_detect      6      1          240          430            0
+---------------------------------------------------------------------------------------------
+

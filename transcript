@@ -1,0 +1,613 @@
+# //  Questa Sim-64
+# //  Version 10.6 linux_x86_64 Dec 13 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project ones_counter
+vsim work.tb_ones_counter -t ns -novopt
+# vsim work.tb_ones_counter -t ns -novopt 
+# Start time: 13:19:59 on Jul 11,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/work.tb_ones_counter
+# Loading work.tb_ones_counter
+# Refreshing /home/vaiana/v_modules/work.ones_counter_postsyn
+# Loading work.ones_counter_postsyn
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX18
+# Loading work.HS65_LS_IVX18
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb_ones_counter' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/U171 File: /home/vaiana/WORK_SYNTHESIS_1718/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT.v
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2X4
+# Loading work.HS65_LS_AND2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX9
+# Loading work.HS65_LS_IVX9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR3X2
+# Loading work.HS65_LSS_XOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAO2X4
+# Loading work.HS65_LS_PAO2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAOI2X1
+# Loading work.HS65_LS_PAOI2X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X6
+# Loading work.HS65_LSS_XOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X6
+# Loading work.HS65_LS_NOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2AX3
+# Loading work.HS65_LS_NOR2AX3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX2
+# Loading work.HS65_LS_IVX2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI212X2
+# Loading work.HS65_LS_AOI212X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X6
+# Loading work.HS65_LSS_XNOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OR2X4
+# Loading work.HS65_LS_OR2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NAND2X7
+# Loading work.HS65_LS_NAND2X7
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X5
+# Loading work.HS65_LS_OAI212X5
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI112X1
+# Loading work.HS65_LS_AOI112X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI12X2
+# Loading work.HS65_LS_AOI12X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA212X4
+# Loading work.HS65_LS_OA212X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI21X3
+# Loading work.HS65_LS_OAI21X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X9
+# Loading work.HS65_LS_OA12X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR3X2
+# Loading work.HS65_LSS_XNOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X3
+# Loading work.HS65_LS_OAI212X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X3
+# Loading work.HS65_LSS_XOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X2
+# Loading work.HS65_LS_NOR2X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X3
+# Loading work.HS65_LSS_XNOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND3X9
+# Loading work.HS65_LS_AND3X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_DFPQX4
+# Loading work.HS65_LS_DFPQX4
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_DFPQX18
+# Loading work.HS65_LSS_DFPQX18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X18
+# Loading work.HS65_LS_OA12X18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2ABX18
+# Loading work.HS65_LS_AND2ABX18
+# Error loading design
+# End time: 13:20:02 on Jul 11,2018, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 1
+# Compile of tb_ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of ones_counter_postsyn.v was successful.
+# Compile of CORE65LPHVT.v was successful.
+# Compile of CORE65LPLVT.v was successful.
+# Compile of CORE65LPSVT.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.tb_ones_counter -t ns -novopt
+# vsim work.tb_ones_counter -t ns -novopt 
+# Start time: 13:22:36 on Jul 11,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/work.tb_ones_counter
+# Loading work.tb_ones_counter
+# Refreshing /home/vaiana/v_modules/work.ones_counter_postsyn
+# Loading work.ones_counter_postsyn
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX18
+# Loading work.HS65_LS_IVX18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2X4
+# Loading work.HS65_LS_AND2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX9
+# Loading work.HS65_LS_IVX9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR3X2
+# Loading work.HS65_LSS_XOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAO2X4
+# Loading work.HS65_LS_PAO2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAOI2X1
+# Loading work.HS65_LS_PAOI2X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X6
+# Loading work.HS65_LSS_XOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X6
+# Loading work.HS65_LS_NOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2AX3
+# Loading work.HS65_LS_NOR2AX3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX2
+# Loading work.HS65_LS_IVX2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI212X2
+# Loading work.HS65_LS_AOI212X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X6
+# Loading work.HS65_LSS_XNOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OR2X4
+# Loading work.HS65_LS_OR2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NAND2X7
+# Loading work.HS65_LS_NAND2X7
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X5
+# Loading work.HS65_LS_OAI212X5
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI112X1
+# Loading work.HS65_LS_AOI112X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI12X2
+# Loading work.HS65_LS_AOI12X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA212X4
+# Loading work.HS65_LS_OA212X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI21X3
+# Loading work.HS65_LS_OAI21X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X9
+# Loading work.HS65_LS_OA12X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR3X2
+# Loading work.HS65_LSS_XNOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X3
+# Loading work.HS65_LS_OAI212X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X3
+# Loading work.HS65_LSS_XOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X2
+# Loading work.HS65_LS_NOR2X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X3
+# Loading work.HS65_LSS_XNOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND3X9
+# Loading work.HS65_LS_AND3X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_DFPQX4
+# Loading work.HS65_LS_DFPQX4
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_DFPQX18
+# Loading work.HS65_LSS_DFPQX18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X18
+# Loading work.HS65_LS_OA12X18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2ABX18
+# Loading work.HS65_LS_AND2ABX18
+# Refreshing /home/vaiana/v_modules/work.CORE65LPSVT_U_FD_P_NOTI
+# Loading work.CORE65LPSVT_U_FD_P_NOTI
+add wave -position end sim:/tb_ones_counter/DUT/*
+run 5 us
+# Value: count_out = 000000 @10
+# Value: count_out = 010100 @130
+# Value: count_out = 001001 @150
+# ** Note: $finish    : /home/vaiana/v_modules/src/pe/tb_ones_counter.v(51)
+#    Time: 170 ns  Iteration: 1  Instance: /tb_ones_counter
+# 1
+# Break in Module tb_ones_counter at /home/vaiana/v_modules/src/pe/tb_ones_counter.v line 51
+# Compile of tb_ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of ones_counter_postsyn.v was successful.
+# Compile of CORE65LPHVT.v was successful.
+# Compile of CORE65LPLVT.v was successful.
+# Compile of CORE65LPSVT.v was successful.
+# 8 compiles, 0 failed with no errors.
+quit -sim
+# End time: 13:24:48 on Jul 11,2018, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 1
+# Compile of tb_ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of ones_counter_postsyn.v was successful.
+# Compile of CORE65LPHVT.v was successful.
+# Compile of CORE65LPLVT.v was successful.
+# Compile of CORE65LPSVT.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.tb_ones_counter -t ns -novopt
+# vsim work.tb_ones_counter -t ns -novopt 
+# Start time: 13:24:58 on Jul 11,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/work.tb_ones_counter
+# Loading work.tb_ones_counter
+# Refreshing /home/vaiana/v_modules/work.ones_counter_postsyn
+# Loading work.ones_counter_postsyn
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX18
+# Loading work.HS65_LS_IVX18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2X4
+# Loading work.HS65_LS_AND2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX9
+# Loading work.HS65_LS_IVX9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR3X2
+# Loading work.HS65_LSS_XOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAO2X4
+# Loading work.HS65_LS_PAO2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAOI2X1
+# Loading work.HS65_LS_PAOI2X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X6
+# Loading work.HS65_LSS_XOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X6
+# Loading work.HS65_LS_NOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2AX3
+# Loading work.HS65_LS_NOR2AX3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX2
+# Loading work.HS65_LS_IVX2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI212X2
+# Loading work.HS65_LS_AOI212X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X6
+# Loading work.HS65_LSS_XNOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OR2X4
+# Loading work.HS65_LS_OR2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NAND2X7
+# Loading work.HS65_LS_NAND2X7
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X5
+# Loading work.HS65_LS_OAI212X5
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI112X1
+# Loading work.HS65_LS_AOI112X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI12X2
+# Loading work.HS65_LS_AOI12X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA212X4
+# Loading work.HS65_LS_OA212X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI21X3
+# Loading work.HS65_LS_OAI21X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X9
+# Loading work.HS65_LS_OA12X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR3X2
+# Loading work.HS65_LSS_XNOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X3
+# Loading work.HS65_LS_OAI212X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X3
+# Loading work.HS65_LSS_XOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X2
+# Loading work.HS65_LS_NOR2X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X3
+# Loading work.HS65_LSS_XNOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND3X9
+# Loading work.HS65_LS_AND3X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_DFPQX4
+# Loading work.HS65_LS_DFPQX4
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_DFPQX18
+# Loading work.HS65_LSS_DFPQX18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X18
+# Loading work.HS65_LS_OA12X18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2ABX18
+# Loading work.HS65_LS_AND2ABX18
+# Refreshing /home/vaiana/v_modules/work.CORE65LPSVT_U_FD_P_NOTI
+# Loading work.CORE65LPSVT_U_FD_P_NOTI
+add wave -position end sim:/tb_ones_counter/DUT/*
+run 5 us
+# Value: count_out = 000000 @10
+# Value: count_out = 010100 @130
+# Value: count_out = 001001 @150
+# Value: count_out = 000110 @170
+# Value: count_out = 001011 @190
+# ** Note: $finish    : /home/vaiana/v_modules/src/pe/tb_ones_counter.v(51)
+#    Time: 230 ns  Iteration: 1  Instance: /tb_ones_counter
+# 1
+# Break in Module tb_ones_counter at /home/vaiana/v_modules/src/pe/tb_ones_counter.v line 51
+quit -sim
+# End time: 20:01:18 on Jul 11,2018, Elapsed time: 6:36:20
+# Errors: 0, Warnings: 1
+# Compile of tb_ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of CORE65LPHVT.v was successful.
+# Compile of CORE65LPLVT.v was successful.
+# Compile of CORE65LPSVT.v was successful.
+# Compile of ones_counter_shgen.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.tb_ones_counter -t ns -novopt
+# vsim work.tb_ones_counter -t ns -novopt 
+# Start time: 20:01:53 on Jul 11,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/work.tb_ones_counter
+# Loading work.tb_ones_counter
+# Loading work.ones_counter_postsyn
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX18
+# Loading work.HS65_LS_IVX18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2X4
+# Loading work.HS65_LS_AND2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX9
+# Loading work.HS65_LS_IVX9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR3X2
+# Loading work.HS65_LSS_XOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAO2X4
+# Loading work.HS65_LS_PAO2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_PAOI2X1
+# Loading work.HS65_LS_PAOI2X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X6
+# Loading work.HS65_LSS_XOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X6
+# Loading work.HS65_LS_NOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2AX3
+# Loading work.HS65_LS_NOR2AX3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_IVX2
+# Loading work.HS65_LS_IVX2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI212X2
+# Loading work.HS65_LS_AOI212X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X6
+# Loading work.HS65_LSS_XNOR2X6
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OR2X4
+# Loading work.HS65_LS_OR2X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NAND2X7
+# Loading work.HS65_LS_NAND2X7
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X5
+# Loading work.HS65_LS_OAI212X5
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI112X1
+# Loading work.HS65_LS_AOI112X1
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AOI12X2
+# Loading work.HS65_LS_AOI12X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA212X4
+# Loading work.HS65_LS_OA212X4
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI21X3
+# Loading work.HS65_LS_OAI21X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X9
+# Loading work.HS65_LS_OA12X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR3X2
+# Loading work.HS65_LSS_XNOR3X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OAI212X3
+# Loading work.HS65_LS_OAI212X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XOR2X3
+# Loading work.HS65_LSS_XOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_NOR2X2
+# Loading work.HS65_LS_NOR2X2
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_XNOR2X3
+# Loading work.HS65_LSS_XNOR2X3
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND3X9
+# Loading work.HS65_LS_AND3X9
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_DFPQX4
+# Loading work.HS65_LS_DFPQX4
+# Refreshing /home/vaiana/v_modules/work.HS65_LSS_DFPQX18
+# Loading work.HS65_LSS_DFPQX18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_OA12X18
+# Loading work.HS65_LS_OA12X18
+# Refreshing /home/vaiana/v_modules/work.HS65_LS_AND2ABX18
+# Loading work.HS65_LS_AND2ABX18
+# Refreshing /home/vaiana/v_modules/work.CORE65LPSVT_U_FD_P_NOTI
+# Loading work.CORE65LPSVT_U_FD_P_NOTI
+add wave -position end sim:/tb_ones_counter/DUT/*
+quit -sim
+# End time: 20:02:29 on Jul 11,2018, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 1
+# Compile of tb_ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of CORE65LPHVT.v was successful.
+# Compile of CORE65LPLVT.v was successful.
+# Compile of CORE65LPSVT.v was successful.
+# Compile of ones_counter_shgen.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.tb_ones_counter -t ns -novopt
+# vsim work.tb_ones_counter -t ns -novopt 
+# Start time: 20:02:36 on Jul 11,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/work.tb_ones_counter
+# Loading work.tb_ones_counter
+# ** Error: (vsim-3033) /home/vaiana/v_modules/src/pe/tb_ones_counter.v(9): Instantiation of 'ones_counter_shgen' failed. The design unit was not found.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter File: /home/vaiana/v_modules/src/pe/tb_ones_counter.v
+#         Searched libraries:
+#             /home/vaiana/v_modules/work
+# Error loading design
+# End time: 20:02:37 on Jul 11,2018, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of tb_ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of CORE65LPHVT.v was successful.
+# Compile of CORE65LPLVT.v was successful.
+# Compile of CORE65LPSVT.v was successful.
+# Compile of ones_counter_shgen.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.tb_ones_counter -t ns -novopt
+# vsim work.tb_ones_counter -t ns -novopt 
+# Start time: 20:03:11 on Jul 11,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/work.tb_ones_counter
+# Loading work.tb_ones_counter
+# Refreshing /home/vaiana/v_modules/work.ones_counter_shgen
+# Loading work.ones_counter_shgen
+# Refreshing /home/vaiana/v_modules/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/work.full_adder
+# Loading work.full_adder
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(74): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(74): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(74): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(82): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(82): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(82): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(90): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_2 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(90): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_2 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(90): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(98): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_3 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(98): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_3 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(98): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(106): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_4 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(106): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_4 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(106): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(114): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_5 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(114): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_5 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(114): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(122): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_6 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(122): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_6 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(122): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(130): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_7 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(130): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_7 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(130): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(138): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_8 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(138): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_8 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(138): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(146): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_9 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(146): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_9 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(146): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(154): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_10 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(154): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_10 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(154): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(162): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_11 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(162): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_11 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(162): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(170): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_12 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(170): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_12 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(170): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(178): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_13 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(178): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_13 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(178): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(186): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_14 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(186): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_14 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(186): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(194): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_15 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(194): [PCDPC] - Port size (1) does not match connection size (2) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_0_15 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(194): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(203): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(203): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(203): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(211): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(211): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(211): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(219): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_2 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(219): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_2 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(219): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(227): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_3 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(227): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_3 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(227): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(235): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_4 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(235): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_4 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(235): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(243): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_5 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(243): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_5 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(243): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(251): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_6 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(251): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_6 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(251): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(259): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_7 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(259): [PCDPC] - Port size (2) does not match connection size (3) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_1_7 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(259): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(268): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(268): [PCDPC] - Port size (3) does not match connection size (4) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(268): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(276): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(276): [PCDPC] - Port size (3) does not match connection size (4) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(276): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(284): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_2 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(284): [PCDPC] - Port size (3) does not match connection size (4) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_2 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(284): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(292): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_3 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(292): [PCDPC] - Port size (3) does not match connection size (4) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_2_3 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(292): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(301): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_3_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(301): [PCDPC] - Port size (4) does not match connection size (5) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_3_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(301): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(309): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_3_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(309): [PCDPC] - Port size (4) does not match connection size (5) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_3_1 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(309): [TFMPC] - Missing connection for port 'carry_out'.
+# ** Warning: (vsim-3017) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(318): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_4_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3015) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(318): [PCDPC] - Port size (5) does not match connection size (6) for port 's'. The port definition is at: /home/vaiana/v_modules/src/rca/rca.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /tb_ones_counter/DUT/adder_4_0 File: /home/vaiana/v_modules/src/rca/rca.v
+# ** Warning: (vsim-3722) /home/vaiana/v_modules/src/pe/ones_counter_shgen.v(318): [TFMPC] - Missing connection for port 'carry_out'.
+add wave -position end sim:/tb_ones_counter/DUT/*
+run 5 us
+# Value: count_out = 000000 @10
+# Value: count_out = zxxxx0 @50
+# Value: count_out = zxxxx1 @150
+# Value: count_out = zxxxx0 @170
+# Value: count_out = zxxxx1 @190
+# ** Note: $finish    : /home/vaiana/v_modules/src/pe/tb_ones_counter.v(51)
+#    Time: 230 ns  Iteration: 1  Instance: /tb_ones_counter
+# 1
+# Break in Module tb_ones_counter at /home/vaiana/v_modules/src/pe/tb_ones_counter.v line 51
+quit -sim
+# End time: 20:31:45 on Jul 11,2018, Elapsed time: 0:28:34
+# Errors: 0, Warnings: 94
+# Compile of tb_ones_counter.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of CORE65LPHVT.v was successful.
+# Compile of CORE65LPLVT.v was successful.
+# Compile of CORE65LPSVT.v was successful.
+# Compile of ones_counter_shgen.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.tb_ones_counter -t ns -novopt
+# vsim work.tb_ones_counter -t ns -novopt 
+# Start time: 20:31:56 on Jul 11,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/work.tb_ones_counter
+# Loading work.tb_ones_counter
+# Refreshing /home/vaiana/v_modules/work.ones_counter_shgen
+# Loading work.ones_counter_shgen
+# Refreshing /home/vaiana/v_modules/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/work.full_adder
+# Loading work.full_adder
+add wave -position end sim:/tb_ones_counter/DUT/*
+run 5 us
+# Value: count_out = 000000 @10
+# Value: count_out = 010100 @130
+# Value: count_out = 001001 @150
+# Value: count_out = 000110 @170
+# Value: count_out = 001011 @190
+# ** Note: $finish    : /home/vaiana/v_modules/src/pe/tb_ones_counter.v(51)
+#    Time: 230 ns  Iteration: 1  Instance: /tb_ones_counter
+# 1
+# Break in Module tb_ones_counter at /home/vaiana/v_modules/src/pe/tb_ones_counter.v line 51
+# End time: 12:43:46 on Jul 12,2018, Elapsed time: 16:11:50
+# Errors: 0, Warnings: 1

@@ -1,0 +1,9 @@
+#########################################
+#	to get binary from pytorch model	#
+#########################################
+python3 alex_pretrained_cifar.py
+python3 getter.py
+source ./clean.sh
+source ./fp2b/fp2b.sh 		(To convert signed values to 2's complement
+				 take care to input, for now only the first
+				 row is considered)	 

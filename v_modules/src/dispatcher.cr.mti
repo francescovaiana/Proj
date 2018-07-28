@@ -1,0 +1,64 @@
+/home/vaiana/v_modules/src/dispatcher/custom_rom.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/dispatcher/custom_rom.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module custom_rom
+
+Top level modules:
+	custom_rom
+
+} {} {}} /home/vaiana/v_modules/src/regs/reg.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/regs/reg.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module reg_gen
+
+Top level modules:
+	reg_gen
+
+} {} {}} /home/vaiana/v_modules/src/muxs/mux21_gen.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/muxs/mux21_gen.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module mux21_generic
+
+Top level modules:
+	mux21_generic
+
+} {} {}} /home/vaiana/v_modules/src/dispatcher/tb_dispatcher.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/dispatcher/tb_dispatcher.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module tb_dispatcher
+
+Top level modules:
+	tb_dispatcher
+
+} {} {}} /home/vaiana/v_modules/src/accumulator/accumulator.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/accumulator/accumulator.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module accumulator
+
+Top level modules:
+	accumulator
+
+} {} {}} /home/vaiana/v_modules/src/ones_counter/ones_counter.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/ones_counter/ones_counter.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module ones_counter
+
+Top level modules:
+	ones_counter
+
+} {} {}} /home/vaiana/v_modules/src/rca/rca.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/rca/rca.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module rca
+
+Top level modules:
+	rca
+
+} {} {}} /home/vaiana/v_modules/src/rca/full_adder.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/rca/full_adder.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/vaiana/v_modules/src/dispatcher/dispatcher.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/dispatcher/dispatcher.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module dispatcher
+
+Top level modules:
+	dispatcher
+
+} {} {}}

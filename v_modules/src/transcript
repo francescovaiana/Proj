@@ -1,0 +1,1678 @@
+# //  Questa Sim-64
+# //  Version 10.6 linux_x86_64 Dec 13 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project pe
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v failed with 5 errors.
+# 22 compiles, 1 failed with 5 errors.
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 00:55:26 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 00:56:07 on Jul 22,2018, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 00:56:12 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/fifo2/*}
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[0]/genblk1[3]/genblk1/dist_arbiter/fifo1/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[1]/genblk1[1]/genblk1/dist_arbiter/fifo1/*}
+run 5 us
+quit -sim
+# End time: 01:00:27 on Jul 22,2018, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 01:00:32 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 01:07:04 on Jul 22,2018, Elapsed time: 0:06:32
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 01:07:11 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 09:36:24 on Jul 22,2018, Elapsed time: 8:29:13
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 09:36:34 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+add wave -position 88 sim:/tb_pe/DUT/my_dispatcher/*
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 11 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 09:55:36 on Jul 22,2018, Elapsed time: 0:19:02
+# Errors: 0, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 09:55:47 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 10:00:48 on Jul 22,2018, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 1
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 10:00:54 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_pe
+# Loading work.processing_element
+# Loading work.dispatcher
+# Loading work.accumulator
+# Loading work.rca
+# Loading work.mux21_generic
+# Loading work.reg_gen
+# Loading work.custom_rom
+# Loading work.ones_counter
+# Loading work.my_noc
+# Loading work.full_adder
+# Loading work.enh_mux
+# Loading work.buffer
+# Loading work.demux
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 10:01:40 on Jul 22,2018, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 10:01:50 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 10:04:12 on Jul 22,2018, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 10:04:32 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# Causality operation skipped due to absence of debug database file
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/*}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+source sim.tcl
+# End time: 18:53:27 on Jul 22,2018, Elapsed time: 8:48:55
+# Errors: 21, Warnings: 2
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 18:53:27 on Jul 22,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_pe
+# Loading work.processing_element
+# Loading work.dispatcher
+# Loading work.accumulator
+# Loading work.rca
+# Loading work.mux21_generic
+# Loading work.reg_gen
+# Loading work.custom_rom
+# Loading work.ones_counter
+# Loading work.my_noc
+# Loading work.full_adder
+# Loading work.enh_mux
+# Loading work.buffer
+# Loading work.demux
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 14:19:11 on Jul 27,2018, Elapsed time: 115:25:44
+# Errors: 0, Warnings: 1
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:19:16 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_pe
+# Loading work.processing_element
+# Loading work.dispatcher
+# Loading work.accumulator
+# Loading work.rca
+# Loading work.mux21_generic
+# Loading work.reg_gen
+# Loading work.custom_rom
+# Loading work.ones_counter
+# Loading work.my_noc
+# Loading work.full_adder
+# Loading work.enh_mux
+# Loading work.buffer
+# Loading work.demux
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 14:39:06 on Jul 27,2018, Elapsed time: 0:19:50
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:39:14 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 14:45:28 on Jul 27,2018, Elapsed time: 0:06:14
+# Errors: 0, Warnings: 0
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:45:30 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_pe
+# Loading work.processing_element
+# Loading work.dispatcher
+# Loading work.accumulator
+# Loading work.rca
+# Loading work.mux21_generic
+# Loading work.reg_gen
+# Loading work.custom_rom
+# Loading work.ones_counter
+# Loading work.my_noc
+# Loading work.full_adder
+# Loading work.enh_mux
+# Loading work.buffer
+# Loading work.demux
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave tb_pe/DUT/link_network/genblk3\[0\]/genblk1\[0\]/genblk1/dist_arbiter/next_out
+# (vish-4014) No objects found matching 'tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/next_out'.
+add wave tb_pe/DUT/link_network/genblk3\[0\]/genblk1\[0\]/genblk1/dist_arbiter/next_out
+# (vish-4014) No objects found matching 'tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/next_out'.
+quit -sim
+# End time: 14:49:18 on Jul 27,2018, Elapsed time: 0:03:48
+# Errors: 2, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:49:24 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# (vish-4014) No objects found matching '/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/previous_out'.
+quit -sim
+# End time: 14:50:18 on Jul 27,2018, Elapsed time: 0:00:54
+# Errors: 1, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:50:25 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave tb_pe/DUT/link_network/genblk3\[0\]/genblk1\[0\]/genblk1/dist_arbiter/next_out
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 14:54:18 on Jul 27,2018, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:54:30 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave tb_pe/DUT/link_network/genblk3\[0\]/genblk1\[0\]/genblk1/dist_arbiter/next_out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 14:56:16 on Jul 27,2018, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:56:24 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 14:58:14 on Jul 27,2018, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 14:58:23 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 15:03:35 on Jul 27,2018, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 15:03:48 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# End time: 16:35:36 on Jul 27,2018, Elapsed time: 1:31:48
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:35:43 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# (vish-4014) No objects found matching '/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/next_fifo1_rd'.
+quit -sim
+# End time: 16:36:28 on Jul 27,2018, Elapsed time: 0:00:45
+# Errors: 1, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:36:32 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# (vish-4014) No objects found matching '/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/next_out'.
+quit -sim
+# End time: 16:36:57 on Jul 27,2018, Elapsed time: 0:00:25
+# Errors: 1, Warnings: 1
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:36:59 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.tb_pe
+# Loading work.processing_element
+# Loading work.dispatcher
+# Loading work.accumulator
+# Loading work.rca
+# Loading work.mux21_generic
+# Loading work.reg_gen
+# Loading work.custom_rom
+# Loading work.ones_counter
+# Loading work.my_noc
+# Loading work.full_adder
+# Loading work.enh_mux
+# Loading work.buffer
+# Loading work.demux
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# ** Error (suppressible): (vsim-3601) Iteration limit 10000000 reached at time 560 ns.
+quit òsim
+# unknown switch: òsim
+quit -sim
+# End time: 16:38:47 on Jul 27,2018, Elapsed time: 0:01:48
+# Errors: 2, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:38:54 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 16:43:16 on Jul 27,2018, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:43:23 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 16:46:44 on Jul 27,2018, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.semifunge was successful.
+# Compile of new_2enh_mux.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:47:02 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+quit -sim
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of 2r1w_fifo.semifunge was successful.
+# Compile of new_2enh_mux.v was successful.
+# 22 compiles, 0 failed with no errors.
+# End time: 16:48:01 on Jul 27,2018, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 1
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 16:48:03 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+add wave -position end {sim:/tb_pe/DUT/link_network/genblk3[0]/genblk1[0]/genblk1/dist_arbiter/fifo1/*}
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+run 5 us
+# Loading rom.
+# Loading rom.
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 17:04:32 on Jul 27,2018, Elapsed time: 0:16:29
+# Errors: 15, Warnings: 0
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of 2r1w_fifo.semifunge.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 17:05:06 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 17:05:29 on Jul 27,2018, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+# Compile of accumulator.v was successful.
+# Compile of buffer.v was successful.
+# Compile of custom_rom.v was successful.
+# Compile of dispatcher.v was successful.
+# Compile of nand.v was successful with warnings.
+# Compile of norN1.v was successful.
+# Compile of dummy_mul.v was successful.
+# Compile of mux21_gen.v was successful.
+# Compile of mux51_generic.v was successful.
+# Compile of demux.v was successful.
+# Compile of enh_demux.v was successful.
+# Compile of my_noc.v was successful.
+# Compile of rotate_reg.v was successful.
+# Compile of ones_counter.v was successful.
+# Compile of processing_element.v was successful.
+# Compile of tb_pe.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of rca.v was successful.
+# Compile of reg.v was successful.
+# Compile of reg_input_en.v was successful.
+# Compile of new_2enh_mux.v was successful.
+# Compile of 2r1w_fifo.semifunge.v was successful.
+# 22 compiles, 0 failed with no errors.
+source sim.tcl
+# vsim -t ns -novopt work.tb_pe 
+# Start time: 17:05:34 on Jul 27,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/vaiana/v_modules/src/work.tb_pe
+# Loading work.tb_pe
+# Refreshing /home/vaiana/v_modules/src/work.processing_element
+# Loading work.processing_element
+# Refreshing /home/vaiana/v_modules/src/work.dispatcher
+# Loading work.dispatcher
+# Refreshing /home/vaiana/v_modules/src/work.accumulator
+# Loading work.accumulator
+# Refreshing /home/vaiana/v_modules/src/work.rca
+# Loading work.rca
+# Refreshing /home/vaiana/v_modules/src/work.mux21_generic
+# Loading work.mux21_generic
+# Refreshing /home/vaiana/v_modules/src/work.reg_gen
+# Loading work.reg_gen
+# Refreshing /home/vaiana/v_modules/src/work.custom_rom
+# Loading work.custom_rom
+# Refreshing /home/vaiana/v_modules/src/work.ones_counter
+# Loading work.ones_counter
+# Refreshing /home/vaiana/v_modules/src/work.my_noc
+# Loading work.my_noc
+# Refreshing /home/vaiana/v_modules/src/work.full_adder
+# Loading work.full_adder
+# Refreshing /home/vaiana/v_modules/src/work.enh_mux
+# Loading work.enh_mux
+# Refreshing /home/vaiana/v_modules/src/work.buffer
+# Loading work.buffer
+# Refreshing /home/vaiana/v_modules/src/work.demux
+# Loading work.demux
+# Refreshing /home/vaiana/v_modules/src/work.mul
+# Loading work.mul
+# Loading rom.
+# Loading rom.
+add wave tb_pe/DUT/link_network/genblk3\[0\]/genblk1\[0\]/genblk1/dist_arbiter/fifo1/buff
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/vaiana/v_modules/src/wave.do
+quit -sim
+# End time: 17:08:10 on Jul 27,2018, Elapsed time: 0:02:36
+# Errors: 0, Warnings: 1
+source sim.tcl

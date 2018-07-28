@@ -1,0 +1,22 @@
+/home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/dispatcher/tb_custom_rom.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module tb_rom
+
+Top level modules:
+	tb_rom
+
+} {} {}} /home/vaiana/v_modules/src/rca/full_adder.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/rca/full_adder.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/vaiana/v_modules/src/ones_counter/ones_counter.v {1 {vlog -work work -vopt -stats=none /home/vaiana/v_modules/src/ones_counter/ones_counter.v
+QuestaSim-64 vlog 10.6 Compiler 2016.12 Dec 13 2016
+-- Compiling module ones_counter
+
+Top level modules:
+	ones_counter
+
+} {} {}}

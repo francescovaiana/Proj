@@ -1,0 +1,7 @@
+####						  #
+##	To run a test, first run init_rom.sh      #	
+##	to create the .mem file with certain 	  #
+##	pattern, then run check.sh to convert 	 ##
+#	in decimal and do your elaboration,	 ## 
+#	then compute.sh to make the dot product  ##
+#					       ####

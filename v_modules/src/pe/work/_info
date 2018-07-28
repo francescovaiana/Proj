@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/vaiana/v_modules/src/pe
+vmy_noc
+!s110 1531935685
+!i10b 1
+!s100 VhRhdbjgnF@I94iOG1Ckz0
+IRzN2`RQfn2JODgfDbSAlM1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1531935682
+8../noc_tree_v1.0/my_noc.v
+F../noc_tree_v1.0/my_noc.v
+L0 1
+Z2 OL;L;10.6;65
+r1
+!s85 0
+31
+!s108 1531935684.000000
+!s107 ../noc_tree_v1.0/my_noc.v|
+!s90 ../noc_tree_v1.0/my_noc.v|
+!i113 0
+Z3 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 tCvgOpt 0
+vones_counter
+!s110 1531332070
+!i10b 1
+!s100 h7Z92=nC^Z;9YFFG>il_03
+IbbJQ;0>Ri]mmW0AB3zzD03
+R1
+R0
+w1531332038
+Z5 8ones_counter_shgen.v
+Z6 Fones_counter_shgen.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1531332070.000000
+Z7 !s107 ones_counter_shgen.v|
+Z8 !s90 ones_counter_shgen.v|
+!i113 0
+R3
+R4
+vones_counter_postsyn
+!s110 1531306575
+!i10b 1
+!s100 bJ`h`CBnnIkENVS3ZH7h@0
+IKlOI0:Z5NRz9ImIZYKk`@0
+R1
+R0
+w1531306566
+8ones_counter_postsyn.v
+Fones_counter_postsyn.v
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1531306575.000000
+!s107 ones_counter_postsyn.v|
+!s90 ones_counter_postsyn.v|
+!i113 0
+R3
+R4
+vones_counter_shgen
+!s110 1531333698
+!i10b 1
+!s100 H1EX:RQ4hB^T@]1SHnFi`1
+IlENJYnK0V4P>F_i>KjkH92
+R1
+R0
+w1531333693
+R5
+R6
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1531333698.000000
+R7
+R8
+!i113 0
+R3
+R4
+vprocessing_element
+!s110 1532078399
+!i10b 1
+!s100 al_E8@RoEnhXDoXmJb=JV3
+Ic>Mm@VfZ8>eCTGn68nH=j2
+R1
+R0
+w1532078398
+8processing_element.v
+Fprocessing_element.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1532078399.000000
+!s107 processing_element.v|
+!s90 processing_element.v|
+!i113 0
+R3
+R4
+vtb_ones_counter
+!s110 1531306578
+!i10b 1
+!s100 BA^@;W49M7YOzI6X:MBbH0
+ID^B_coei_c=oeMEH:_9eE2
+R1
+R0
+w1531306564
+8tb_ones_counter.v
+Ftb_ones_counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1531306578.000000
+!s107 tb_ones_counter.v|
+!s90 tb_ones_counter.v|
+!i113 0
+R3
+R4
+vtb_pe
+!s110 1531926629
+!i10b 1
+!s100 E9nF[jEQT_8znGIL5O9;g2
+Ifmd0SLz3`g08;n?B[GN@X1
+R1
+R0
+w1531926624
+8tb_pe.v
+Ftb_pe.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1531926629.000000
+!s107 tb_pe.v|
+!s90 tb_pe.v|
+!i113 0
+R3
+R4
